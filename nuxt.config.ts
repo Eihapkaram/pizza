@@ -1,4 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+5// https://nuxt.com/docs/api/configuration/nuxt-config
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 export default defineNuxtConfig({
   devServer: {
@@ -27,11 +27,12 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
+      title: 'pizza',
       meta: [
         { name: "disciption", content: "" },
         { name: "keywords", content: "" },
+        { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],
     },
   },
