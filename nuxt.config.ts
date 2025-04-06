@@ -27,8 +27,8 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
-      charset: 'utf-16',
-      viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
       meta: [
         { name: "disciption", content: "" },
         { name: "keywords", content: "" },
