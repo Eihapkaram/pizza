@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "dev:host": "nuxi dev --hostname '0.0.0.0' --port 3000"
+
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.10.1",
+    "aos": "^2.3.4",
+    "axios": "^1.8.3",
+    "jquery": "^3.7.1",
+    "nuxt": "^3.15.4",
+    "nuxt-swiper": "^0.1.0",
+    "pinia": "^3.0.1",
+    "swiper": "^11.2.5",
+    "vanilla-tilt": "^1.8.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "vite-plugin-vuetify": "^2.1.0",
+    "vuetify": "^3.7.15"
+  }
+}
